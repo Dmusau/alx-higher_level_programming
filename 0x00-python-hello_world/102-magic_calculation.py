@@ -1,3 +1,4 @@
-#!/usr/bin/python3
 def magic_calculation(a, b):
-    return(98 + (a ** b))
+    result = 98  # Load constant 98
+    result += a ** b  # Binary power and add
+    return result
